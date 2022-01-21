@@ -2,13 +2,19 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    border:0;
+    outline: none;
 } 
 .container{
     margin:0 auto;
     width: 1200px;
     
 }
+input{
+    width: 100%;
+    height: 100%;
 
+}
 .topLinks ul{
     list-style: none;
     display: flex;
@@ -44,6 +50,39 @@
     align-items: center;
 }
 
+.SearchBar{
+    display: flex;
+    width: 605px;
+    height: 64px;
+    
+    padding-top: 1rem;
+    
+}
+.Searchbarleft{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border:2px solid #919191;
+    border-radius: 4px 0 0 4px;
+}
+.searchSvg{
+    padding: 0 1rem;
+}
+.searchinput{
+    width: 100%;
+    height: 100%;
+}
+.searchBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    height: 100%;
+    color: #fff;
+    
+    background-color:#919191 ;
+    
+}
 .colorfulBand{
     height: 8px;
     width: 100%;
