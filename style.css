@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+} 
+.container{
+    margin:0 auto;
+}
+.topHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 114px ;
+    background-color: lightblue;
+    padding:10px 100px;
+}
+
+.topLinks ul{
+    list-style: none;
+    display: flex;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.topLinks ul li{
+    
+    padding:0 0 0 20px ;
+
+}
+.topLinks ul a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.topLinks ul :nth-child(5) >a {
+    color:red;
+}
+.HeaderIndex{
+    background-color: lightpink;
+    flex-grow: 1;
+
+    display: flex;
+    align-items: center;
+}
+.HeaderIndex .HBLogo{
+    width: 262px;
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.colorfulBand{
+    height: 8px;
+    width: 100%;
+    background: chartreuse;
+    display: flex;
+}
+.colorfulBand .color1{
+    width: 11%;
+    background: #7622da;
+}
+.colorfulBand .color2{
+    width: 18%;
+    background: #47c6eb;
+}
+.colorfulBand .color3{
+    width: 31%;
+    background: #ed5f1f;
+}
+.colorfulBand .color4{
+    width: 15%;
+    background: #f59f28;
+}
+.colorfulBand .color5{
+    width: 13%;
+    background: #6b1e5b;
+}
+.colorfulBand .color6{
+    width: 12%;
+    background: #45b794;
+}
