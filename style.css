@@ -5,14 +5,8 @@
 } 
 .container{
     margin:0 auto;
-}
-.topHeader{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 114px ;
-    background-color: lightblue;
-    padding:10px 100px;
+    width: 1200px;
+    
 }
 
 .topLinks ul{
@@ -36,7 +30,7 @@
     color:red;
 }
 .HeaderIndex{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     flex-grow: 1;
 
     display: flex;
@@ -49,6 +43,7 @@
     justify-content: flex-start;
     align-items: center;
 }
+
 .colorfulBand{
     height: 8px;
     width: 100%;
