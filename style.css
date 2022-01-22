@@ -81,7 +81,7 @@ input{
     color: #fff;
     cursor: pointer;
     background-color:#919191 ;
-    
+    border-radius: 0 4px 4px 0;
 }
 
 .customer{
@@ -221,19 +221,17 @@ input{
 .Herousel{
     height: 540px;
     background-color: rgb(139,166,98);
-    display: flex;
-    justify-content: center;
-    
-
+    position: relative;
 }
 .HerouselBucket{
+    position: absolute;
+    z-index: 50;
     height: 60px;
     width: 100%;
     display: flex;
     padding: 18px 0 13px;
     justify-content: center;
     align-items: center;
-    
 }
 .HerouselBcktItem{
     position: relative;
@@ -246,6 +244,7 @@ input{
     background-color: #fff;
     border-radius: 20px;
     color: #484848;
+    box-shadow: 0 6px 26px rgb(0 0 0 / 16%);
 }
 .HerouselBcktItem span{
     font-size: 14px;
@@ -266,3 +265,122 @@ input{
     bottom: -5px;
     cursor: default;
 }
+.HerouselContent{
+    position: relative;
+    z-index: 1;
+    background-color: lightskyblue;
+    padding: 64px 0 90px;
+    
+}
+.HerouselCntntBase{
+    height: 386px;
+    max-width: 1088px;    
+    zoom:1;
+    box-shadow: 0 6px 26px rgb(0 0 0 / 16%);
+}
+.BaseTemplate{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+.HerouselContentLeftSide{
+    position: relative;
+    padding: 56px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 408px;
+    height:386px;
+    
+}
+.ShareBtn{
+    width: 56px;
+    height: 56px;
+    padding: 16px 16px 0 0;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.ShareRadius{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.ShareRadius:hover{
+    border-radius: 90px;
+    background-color: lightgray;
+}
+
+.ShareBtnSvg{
+    
+    content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='24' fill='none'%3E%3Cpath d='M14.25 8.25h1.5a1.5 1.5 0 011.5 1.5v12a1.5 1.5 0 01-1.5 1.5H2.25a1.5 1.5 0 01-1.5-1.5v-12a1.5 1.5 0 011.5-1.5h1.5M9 .75v10.5M5.25 4.5L9 .75l3.75 3.75' fill-rule='evenodd' stroke='%23484848' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/svg%3E");
+   
+}
+.LeftSideContent div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 152px;
+    padding-right: 50px;
+    
+}
+.LeftSideContent .LeftSideText1{
+    margin-top: 8px;
+    font-size: 24px;
+    
+    line-height: 1.33;
+    letter-spacing: 0.33px;
+    max-height: 100px;
+    display: block;
+}
+.LeftSideContent .LeftSideText2{
+    margin-top: 8px;
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: 0.34px;
+    max-height: 100px;
+    font-weight: 900;
+    display: block;
+    
+}
+
+.customButton{
+    margin-top: 24px;
+    border-radius: 24px;
+    margin-right: auto;
+    min-width: 50px;
+    display: flex;
+    background-color: rgb(237, 100, 141);
+    text-decoration: none;
+    cursor: pointer;
+}
+.customButton:hover{
+    background-color: rgb(235, 76, 123);
+}
+.customButtonText{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.14;
+    margin: 0 auto;
+    padding: 12px 24px;
+
+}
+
+.HerouselContentRightSide{
+    padding: 4px;
+    min-width: 680px;
+    height:386px;
+}
+.RightSidePic{
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
