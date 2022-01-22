@@ -47,6 +47,7 @@ input{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
 }
 
 .SearchBar{
@@ -217,4 +218,51 @@ input{
     color: #646464;
 }
 
+.Herousel{
+    height: 540px;
+    background-color: rgb(139,166,98);
+    display: flex;
+    justify-content: center;
+    
 
+}
+.HerouselBucket{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding: 18px 0 13px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.HerouselBcktItem{
+    position: relative;
+    padding: 8px 16px;
+    margin: 0 12px;
+    color: #fff;
+}
+.HerouselBcktItem:hover{
+    
+    background-color: #fff;
+    border-radius: 20px;
+    color: #484848;
+}
+.HerouselBcktItem span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: all .2s ease-in 0s;
+    cursor: pointer;
+}
+.HerouselBcktItem:hover:after{
+    content: "";
+    position: absolute;
+    left: calc(50% - 8px);
+    width: 0;
+    height: 0;
+    border-top: 8px solid #fff;
+    border-left: 8px solid rgba(0,0,0,0);
+    border-right: 8px solid rgba(0,0,0,0);
+    bottom: -5px;
+    cursor: default;
+}
