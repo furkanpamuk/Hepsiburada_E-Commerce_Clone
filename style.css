@@ -78,7 +78,7 @@ input{
     padding: 0 16px;
     height: 100%;
     color: #fff;
-    
+    cursor: pointer;
     background-color:#919191 ;
     
 }
@@ -88,7 +88,7 @@ input{
     flex-grow: 1;
     height: 64px;
     justify-content: flex-end;
-    background-color: pink;
+    
     padding-top: 16px;
     gap: 12px;
     
@@ -98,36 +98,55 @@ input{
     margin-left: 12px;
     display: flex;
     font-size: 15px;
-    
+    border-radius: 5px;
+    cursor: pointer;
+
 }
 .accountbtn{
     position: relative;
     padding: 9px 10px 6px 47px;
-    border-radius: 5px;
-    background-repeat: no-repeat;
+    width: 157px;
 }
 .accountbtn ::before{
     content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMidYMid' width='20' height='20' fill='%23919191'%3E%3Cpath d='M20 16.333C20 18.123 18.406 20 16.667 20H3.333C1.594 20 0 18.123 0 16.333c0-3.943 2.594-6.048 6.038-6.888C4.774 8.918 3.987 7.935 4 6.111 4.024 2.786 6.692.01 10.003.01 13.315.01 16 2.786 16 6.111c0 1.825-.827 2.794-2.104 3.316 3.477.829 6.104 2.937 6.104 6.906zM14 5.5C14 3.567 12.209 2 10 2S6 3.567 6 5.5 7.791 9 10 9s4-1.567 4-3.5zM10 11c-4.17 0-8 1.255-8 4.667C2 16.805 3.275 18 4.667 18h10.666C16.725 18 18 16.805 18 15.667 18 12.255 14.17 11 10 11z' class='cls-2' fill-rule='evenodd'/%3E%3C/svg%3E");
     position: absolute;
-    top:50%;
-    transform: translate(-2rem,-50%);
+    left: 17px;
+    top: 11px;
+    background-position: 50%;
+    /* top:50%;
+    transform: translate(-2rem,-50%); */
 }
-.accountbtn ::after{
+.accountbtn .accountbtncont::after{
     content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='7' fill='none'%3E%3Cpath data-name='next arrow copy' d='M14 1l-2-1-5 4-5-4-2 1 7 6z' fill='%23919191' fill-rule='evenodd'/%3E%3C/svg%3E");
     position: absolute;
-    top:50%;
-    transform: translate(-2rem,-50%);
-
+    
+    top:14px;
+    right:15px;
+    
     
 }
 .accountbtncont{
     display: flex;
     flex-direction: column;
     
+    
 }
 .accountbtncont :nth-child(2){
     font-size: 10px;
 }
+.basketbtn{
+    position: relative;
+    width: 136px;
+    padding: 15px 24px 14px 54px;
+    background-color: rgb(145, 145, 145);
+}
+.basketbtn::before{
+    content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none'%3E%3Cpath data-name='basket icon' d='M19 7c.03-.719-.31-2.031-1.44-2H6.72l-.81-2.806A1.6 1.6 0 004.48 1H2.01A.879.879 0 001 1.981v.193a.956.956 0 001.19.887h.89l1.76 6.276A2.174 2.174 0 007 11h9a2.155 2.155 0 002-1zM6.01 17.5a1.5 1.5 0 101.5-1.5 1.5 1.5 0 00-1.5 1.5zm7 0A1.49 1.49 0 1014.5 16a1.5 1.5 0 00-1.49 1.5z' fill='%23fff' stroke='%23fff' stroke-width='2' fill-rule='evenodd'/%3E%3C/svg%3E");
+    position: absolute;
+    top: 12px;
+    left: 18px;
+}
+
 
 .colorfulBand{
     height: 8px;
@@ -159,3 +178,6 @@ input{
     width: 12%;
     background: #45b794;
 }
+
+
+
