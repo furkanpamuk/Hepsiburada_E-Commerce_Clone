@@ -372,7 +372,6 @@ input{
     padding: 12px 24px;
 
 }
-
 .HerouselContentRightSide{
     padding: 4px;
     min-width: 680px;
@@ -383,4 +382,121 @@ input{
     overflow: hidden;
 }
 
+.slick-dots{
+    flex: 0 0 auto;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
 
+    justify-content: center;
+    align-items: center;
+
+    height: 76px;
+    padding-bottom: 32px;
+    bottom:-4px;
+
+}
+.slick-dots div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slickContent{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 942px;
+}
+.slickContent ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.slickContent ul li{
+    margin:5px;
+    border:2px;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 60px;
+    height: 40px;
+}
+.slickCntntLeftButton{
+    position: absolute;
+    right: 100%;
+    transition: opacity .4s ease 0s; 
+    opacity: .72;
+    display: flex;
+    justify-content: center;
+    width: 56px;
+    height: 36px;
+    border-radius: 18px;
+    border: 2px solid #fff;
+    margin: 6px 0 6px;
+    cursor: pointer;
+
+}
+.slickCntntLeftButton:hover{
+    opacity: 1;
+}
+.slickCntntLeftButton button{
+    position: relative;
+    display: block;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+
+}
+.iconLeftContainer{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.SlickLeftIcon{
+    content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='16' stroke='%23fff' fill='none'%3E%3Cpath d='M15.531 8H1.47m6.561 6.682L1.47 8l6.56-6.682' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+.slickCntntRightButton{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    right: 0;
+    transition: opacity .4s ease 0s; 
+    width: 200px;
+    cursor: pointer;
+    opacity: .72;
+    display: flex;
+    justify-content: center;
+    height: 36px;
+    border-radius: 18px;
+    border: 2px solid #fff;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.slickCntntRightButton:hover{
+    opacity: 1;
+}
+.slickCntntRightButton button{
+    position: relative;
+    display: block;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+
+}
+.iconRightContainer{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color:#fff;
+    font-size: 15px;
+    font-weight: bold
+}
+.SlickRightIconContent{
+    padding-right: 8px;
+
+}
+.SlickRightIcon{
+    content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='16' stroke='%23fff' fill='none'%3E%3Cpath d='M1.469 8H15.53m-6.561 6.682L15.53 8 8.97 1.318' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/svg%3E") ;
+    width: 15px;
+    height: 14px;
+}
