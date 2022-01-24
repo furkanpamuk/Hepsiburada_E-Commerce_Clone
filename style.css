@@ -500,3 +500,33 @@ input{
     width: 15px;
     height: 14px;
 }
+
+.underside{
+    background-color: lightblue;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.US__FirstContent{
+    line-height: 1.15;
+}
+.US__FirstContent h2{
+    color: rgb(72, 72, 72);
+    font-size: 32px;
+}
+.US__FirstContentHeader{
+    display: flex;
+}
+.US__FirstContent a{
+    position: relative;
+    color: rgb(246, 109, 0);
+    margin: 0px 0px -10px 8px;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+}
+.US__FirstContentHeader svg{
+    margin-left: 4px;
+}
