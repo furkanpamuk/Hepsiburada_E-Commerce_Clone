@@ -521,11 +521,14 @@ input{
 .US__FirstContent a{
     position: relative;
     color: rgb(246, 109, 0);
-    margin: 0px 0px -10px 8px;
+    
     display: flex;
     cursor: pointer;
     text-decoration: none;
     align-items: center;
+}
+.US__FirstContentHeader a{
+    margin:0 0 -10px 8px;
 }
 .US__FirstContentHeader svg{
     margin-left: 4px;
@@ -536,37 +539,62 @@ input{
     border: 1px solid gray;
     border-radius: 8px;
     border-color: rgb(229, 229, 229);
-
+    transition: box-shadow .3s;
+}
+.firstImg{
+    padding-top: 5px;
+}
+.FCIfirstImg{
+    border:0px !important;
+}
+.FCIfirstImg:hover{
+    border: 1px;
+}
+.firstImg picture{
+    width: 100%;
+    height: 100%;
+    
+}
+.US__FirstContentImages ul li:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 .US__FirstContentImages ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
-.FCIsecondImgCntnt{
+.ImgCntnt{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.FCIsecondImg a{
-    padding:24px 12px 33px;
+.FCIsecondImg a,
+.FCIthirdImg a,
+.FCIfourthdImg a,
+.FCIfifthImg a
+{
+    padding:24px 12px 5px;
 }
-.FCIsecondImgCntnt>span{
-    color:rgb(72, 72, 72) ;
-}
-.FCIsecondImg span{
+.US__FirstContentImages .info{
     font-size: 13px;
     text-align: center;
     margin-top: 4px;
     margin-bottom: 13px;
     padding-right: 4px;
     padding-left: 4px;
+    color:rgb(72, 72, 72);
 }
-.FCIsecondImg__price{
-    margin-top: 23px;
+.US__FirstContentImages .price{
+    margin-top: 40px;
     height: 48px;
 }
-.FCIsecondImg__price span{
+.US__FirstContentImages .price :nth-child(1){
     font-size: 24px;
+    font-weight: bold;
+}
+.US__FirstContentImages .price :nth-child(2){
+    position: relative;
+    font-weight: bold;
+    
 }
