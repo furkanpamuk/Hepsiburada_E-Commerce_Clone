@@ -502,7 +502,6 @@ input{
 }
 
 .underside{
-    background-color: lightblue;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -517,6 +516,7 @@ input{
 }
 .US__FirstContentHeader{
     display: flex;
+    margin-bottom: 24px;
 }
 .US__FirstContent a{
     position: relative;
@@ -529,4 +529,44 @@ input{
 }
 .US__FirstContentHeader svg{
     margin-left: 4px;
+}
+.US__FirstContentImages ul li{
+    width: 244px;
+    margin:0 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    border-color: rgb(229, 229, 229);
+
+}
+.US__FirstContentImages ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.FCIsecondImgCntnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.FCIsecondImg a{
+    padding:24px 12px 33px;
+}
+.FCIsecondImgCntnt>span{
+    color:rgb(72, 72, 72) ;
+}
+.FCIsecondImg span{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 13px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.FCIsecondImg__price{
+    margin-top: 23px;
+    height: 48px;
+}
+.FCIsecondImg__price span{
+    font-size: 24px;
 }
