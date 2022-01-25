@@ -536,9 +536,8 @@ input{
 .US__FirstContentImages ul li{
     width: 244px;
     margin:0 10px;
-    border: 1px solid gray;
+    border: 1px solid rgb(229, 229, 229);
     border-radius: 8px;
-    border-color: rgb(229, 229, 229);
     transition: box-shadow .3s;
 }
 .firstImg{
@@ -665,4 +664,48 @@ input{
 .SecondContentBoxes .img{
     border-radius: 8px;
     overflow: hidden;
+}
+.US__ThirdContent{
+    margin:70px 0;
+    color: #484848;
+}
+.US__ThirdContent .header{
+    display: flex;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+.US__ThirdContent .imgContent{
+    margin: 0 -11.5px;
+    display: flex;
+    
+}
+.imgContent >div{
+    width: 153px;
+}
+.US__ThirdContent .imgContent a{
+    display: flex;
+    margin:0 11.5px;
+    line-height: 18.4px;
+    text-decoration: none;
+    color: inherit;
+}
+.US__ThirdContent .imgbox{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.US__ThirdContent .imgbox span{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.US__ThirdContent .imgbox div{
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(229, 229, 229);
+
 }
