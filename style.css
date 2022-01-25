@@ -585,10 +585,30 @@ input{
     padding-left: 4px;
     color:rgb(72, 72, 72);
 }
-.US__FirstContentImages .price{
-    margin-top: 40px;
-    height: 48px;
+.addBasketBtn{
+    position: relative;
+    margin: 23px 12px 0 12px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 198px;
+    height: 71px;
 }
+.US__FirstContentImages ul li:hover .price{
+    display: none;
+}
+.US__FirstContentImages ul li:hover .addBasketBtn{
+    border-radius: 8px;
+    background-color: rgba(255, 96, 0, 0.12);
+    width: 198px;
+    height: 40px;
+    bottom: -15px;
+    /* width: 150px;
+    height: 30px;
+    bottom: -70px; */
+}
+
 .US__FirstContentImages .price :nth-child(1){
     font-size: 24px;
     font-weight: bold;
@@ -596,5 +616,16 @@ input{
 .US__FirstContentImages .price :nth-child(2){
     position: relative;
     font-weight: bold;
+}
+.addBasket{
+    position: absolute;
+    display: none;
+    width: 80px;
+    height: 20px;
+    color:rgb(246, 109, 0); 
+    font-weight: bold;
     
+}
+.US__FirstContentImages ul li:hover .addBasket{
+    display: inline-block;
 }
