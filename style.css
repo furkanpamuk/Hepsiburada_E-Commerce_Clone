@@ -629,3 +629,36 @@ input{
 .US__FirstContentImages ul li:hover .addBasket{
     display: inline-block;
 }
+.US__SecondContent{
+    margin: 0 -8px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.SecondContentBoxes{
+    width: 227px;
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #484848;
+}
+.SecondContentBoxes .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 19px;
+    margin-bottom: 16px;
+    height: 72px;
+    padding: 0 8px;
+}
+.SecondContentBoxes:nth-child(2n+1) .header p :first-child{
+    font-weight: bold;
+}
+.SecondContentBoxes:nth-child(2n) .header p :last-child{
+    font-weight: bold;
+}
+.SecondContentBoxes .img{
+    border-radius: 8px;
+    overflow: hidden;
+}
