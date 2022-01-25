@@ -643,6 +643,10 @@ input{
     justify-content: space-between;
     color: #484848;
 }
+.SecondContentBoxes a{
+    text-decoration: none;
+    color: inherit;
+}
 .SecondContentBoxes .header{
     display: flex;
     flex-direction: column;
