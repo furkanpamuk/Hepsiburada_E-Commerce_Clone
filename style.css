@@ -762,5 +762,31 @@ input{
     border: 1px solid #e5e5e5;
     background-color: hsla(0,0%,100%,.9019607843137255);
     backdrop-filter: blur(3px);
-
+}
+.starboxes .stars{
+    display: flex;
+    width: max-content;
+}
+.starboxes .stars .star{
+    margin-left: 4px;
+    cursor: pointer;
+}
+.starboxes .raitingStar{
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.67;
+    letter-spacing: -.24px;
+    color: #484848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.starboxes .raitingStar >div{
+    width: 3px;
+    height: 3px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-left: 4px;
+    
 }
