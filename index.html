@@ -84,10 +84,10 @@
 
     <div class="Herousel">
         <div class="HerouselBucket">
-            <div class="HerouselBcktItem" onclick="changeBoxColor('#87cefa')"><span>Bugüne Özel</span></div>
-            <div class="HerouselBcktItem" onclick="changeBoxColor('#fbdc4e')"><span >Kampanyalar</span></div>
-            <div class="HerouselBcktItem" onclick="changeBoxColor('#1249a4')"><span >Kaçırılmayacak Fırsatlar</span></div>
-            <div class="HerouselBcktItem" onclick="changeBoxColor('#531199')"><span >Ayrıcalıklar</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#87cefa');imgSlider('https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2081_20220121131908.png')"><span>Bugüne Özel</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#fbdc4e');imgSlider('https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2102_20220125180735.png')"><span >Kampanyalar</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#1249a4'); imgSlider('https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2147_20211202114854.png')"><span >Kaçırılmayacak Fırsatlar</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#531199'); imgSlider('https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2130_20220107105437.png')"><span >Ayrıcalıklar</span></div>
         </div>
         <div class="HerouselContent">
             <div class="HerouselCntntBase container">
@@ -111,7 +111,7 @@
                     <div class="HerouselContentRightSide">
                         <a href="#">
                             <div class="RightSidePic">
-                                <picture><source class="sf-hb-image-view-Kyv7r hb-image-view__image" type="image/webp" srcset="https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2081_20220121131908.png/format:webp 1x, https://images.hepsiburada.net/banners/s/0/1344-756/bannerImage2081_20220121131908.png/format:webp 2x"><source class="sf-hb-image-view-Kyv7r hb-image-view__image" srcset="https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2081_20220121131908.png 1x, https://images.hepsiburada.net/banners/s/0/1344-756/bannerImage2081_20220121131908.png 2x"><img width="672" height="378" alt="CATEGORY-KOZM-KADIN-LOREALDERMOPARTNERUZMANCILT-22-01" class="sf-hb-image-view-Kyv7r hb-image-view__image" src="https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2081_20220121131908.png"></picture>
+                                <picture><img class="RightSideImg" width="672" height="378"  src="https://images.hepsiburada.net/banners/s/0/672-378/bannerImage2081_20220121131908.png"></picture>
                             </div>
                         </a>    
                     </div>
@@ -565,7 +565,7 @@
             BoxColor.style.background = color ;
         }
         function imgSlider(anything){
-            document.querySelector('RightSidePic').picture = anything;
+            document.querySelector('.RightSideImg').src = anything;
         }
     </script>
 </body>
