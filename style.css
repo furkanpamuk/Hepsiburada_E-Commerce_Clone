@@ -746,4 +746,21 @@ input{
     justify-content: center;
     max-width: 300px;
     width: 300px;
-} 
+}
+.imgContent .starboxes{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    left: 8px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    width: auto;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    background-color: hsla(0,0%,100%,.9019607843137255);
+    backdrop-filter: blur(3px);
+
+}
