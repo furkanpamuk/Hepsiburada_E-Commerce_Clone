@@ -788,5 +788,7 @@ input{
     background-color: #ccc;
     border-radius: 50%;
     margin-left: 4px;
-    
+}
+.raitingStar span{
+    margin-left: 4px;
 }
