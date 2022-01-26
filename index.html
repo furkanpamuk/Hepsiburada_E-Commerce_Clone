@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section>
+        
     <header>
         <div class="container">
             <div class="topLinks">
@@ -83,10 +84,10 @@
 
     <div class="Herousel">
         <div class="HerouselBucket">
-            <div class="HerouselBcktItem"><span>Bugüne Özel</span></div>
-            <div class="HerouselBcktItem"><span>Kampanyalar</span></div>
-            <div class="HerouselBcktItem"><span>Kaçırılmayacak Fırsatlar</span></div>
-            <div class="HerouselBcktItem"><span>Ayrıcalıklar</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#87cefa')"><span>Bugüne Özel</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#fbdc4e')"><span >Kampanyalar</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#1249a4')"><span >Kaçırılmayacak Fırsatlar</span></div>
+            <div class="HerouselBcktItem" onclick="changeBoxColor('#531199')"><span >Ayrıcalıklar</span></div>
         </div>
         <div class="HerouselContent">
             <div class="HerouselCntntBase container">
@@ -557,5 +558,15 @@
             </div>
         </div>
     </div>
+    </section>
+    <script type="text/javascript">
+        function changeBoxColor(color){
+            const BoxColor = document.querySelector('.HerouselContent');
+            BoxColor.style.background = color ;
+        }
+        function imgSlider(anything){
+            document.querySelector('RightSidePic').picture = anything;
+        }
+    </script>
 </body>
 </html>
