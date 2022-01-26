@@ -708,3 +708,15 @@ input{
     overflow: hidden;
     border: 1px solid rgb(229, 229, 229);
 }
+.US__FourthContent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #484848;
+}
+.US__FourthContent .header{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-bottom: 24px;
+}
