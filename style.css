@@ -71,6 +71,9 @@ header a{
 .searchSvg{
     padding: 0 1rem;
 }
+.searchSvg svg{
+    fill: #919191;
+}
 .searchinput{
     width: 100%;
     height: 100%;
