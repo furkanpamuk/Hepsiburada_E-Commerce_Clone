@@ -538,7 +538,7 @@ header a{
     margin-left: 4px;
 }
 .US__FirstContentImages ul li{
-    width: 244px;
+    width: 222px;
     margin:0 10px;
     border: 1px solid rgb(229, 229, 229);
     border-radius: 8px;
@@ -556,7 +556,6 @@ header a{
 .firstImg picture{
     width: 100%;
     height: 100%;
-    
 }
 .US__FirstContentImages ul li:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
@@ -564,9 +563,9 @@ header a{
 .US__FirstContentImages ul{
     display: flex;
     list-style: none;
-    justify-content: space-between;
 }
 .ImgCntnt{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
