@@ -217,6 +217,9 @@ header a{
     border-bottom-right-radius: 8px;
     padding-left: 2px;
 }
+.menuItems:first-child:hover .childMenu{
+    display: block;
+}
 
 .childMenu ul{
     height: 100%;
@@ -247,7 +250,7 @@ header a{
     height: 14px;
     position: absolute;
     top:50%;
-    right: 0;
+    right: 10px;
     transform: translate(0,-50%);
     z-index: 2000;
 }
