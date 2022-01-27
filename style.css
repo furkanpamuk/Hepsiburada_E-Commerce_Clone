@@ -13,7 +13,10 @@
 input{
     width: 100%;
     height: 100%;
-
+}
+header a{
+    text-decoration: none;
+    color: black;
 }
 .topLinks ul{
     list-style: none;
@@ -771,6 +774,10 @@ input{
 .starboxes .stars .star{
     margin-left: 4px;
     cursor: pointer;
+}
+.starboxes .stars .star svg:hover{
+    /* background-color: #F3A027; */
+    fill: #F3A027;
 }
 .starboxes .raitingStar{
     margin-left: 4px;
