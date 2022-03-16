@@ -36,3 +36,9 @@
     `git clone https://github.com/furkanpamuk/Hepsiburada_E-Commerce_Clone.git`
 4. The project is opened with Visual Studio Code by typing the following text into the terminal.
     `code .`
+
+## Projeden fotoğraflar / Photos from the project
+
+![alt text](/ProjectImages/img-1.png)
+![alt text](/ProjectImages/img-2.png)
+![alt text](/ProjectImages/img-3.png)
