@@ -710,10 +710,10 @@ header a{
     height: 72px;
     padding: 0 8px;
 }
-.SecondContentBoxes:nth-child(2n+1) .header p :first-child{
+.SecondContentBoxes > a :nth-child(2n+1) .header p :first-child{
     font-weight: bold;
 }
-.SecondContentBoxes:nth-child(2n) .header p :last-child{
+.SecondContentBoxes > a :nth-child(2n) .header p :last-child{
     font-weight: bold;
 }
 .SecondContentBoxes .img{
